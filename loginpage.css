@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(media/pexels-jeff-nissen-942256.jpg);
+    background-image: url(media/pexels-jeff-nissen.jpg);
     background-repeat: no-repeat;
     background-size:2000px auto;
 }
 .container{
-    background-image: url(media/pexels-zulian-yuliansyah-573130.jpg);
+    background-image: url(media/pexels-zulian-yuliansyah.jpg);
     background-size: 400px auto;
     background-repeat: no-repeat;
     background-position-x:left;
