@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="index1.css">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            text-decoration: none;
+        } 
+        header{
+            background-image: url(kccitm.jpg);
+            background-repeat: no-repeat;
+            border: 2px solid rgb(255, 0, 0);
+            width: auto;
+            height: auto;
+            position: relative;
+            padding: 20px 20px;
+        }
+        img{
+            width: 100px;
+            height: 120px;
+        }
+        h1{
+            position: absolute;
+            left: 320px;
+            top: 30px;
+            color: rgb(255, 255, 255);
+            text-shadow: 1px 1px 10px rgb(255, 0, 0);
+        }
+        nav{
+            position: absolute;
+            left: 150px;
+            top: 120px;
+            /* border: 2px solid red; */
+            width: auto;
+            height: 40px;
+        }
+        nav ul li{
+            display: inline;
+            margin: 20px 35px ;
+            text-align: center;
+        }
+        a{
+            color: rgb(255, 0, 0); 
+            padding: 7.5px 65px 7.5px 50px;
+            font-size: x-large;
+        }
+        a:hover{
+            background-color: rgb(255, 0, 0);
+            cursor: pointer;
+            transition-duration: 0.4s;
+            color: aliceblue;
+        }
+        a:active{
+            color: rgb(255, 0, 0); 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>KCC INSTITUTE OF TECHNOLOGY AND MANAGEMENT</h1>
+        <img src="https://www.kccitm.edu.in/images/kcc-logo-new.png" alt="kcc-logo">
+        <nav>
+            <ul class="items">
+                <li><a href="home.info" class="nav-list">Home</a></li>
+                <li><a href="login.info" class="nav-list">Login</a></li>
+                <li><a href="registration" class="nav-list">Registration</a></li>
+                <li><a href="catalogue.info" class="nav-list">Catalogue</a></li>
+                <li><a href="cart.info" class="nav-list">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
