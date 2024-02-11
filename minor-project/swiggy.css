@@ -1,0 +1,322 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 100%;
+    height: 540px;
+    /* border: 2px solid rgb(0, 0, 0); */
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+}
+
+.child-container{
+    /* border: 2px solid red; */
+    height: 100%;
+}
+
+.child1{
+    width: 54.7%;
+}
+
+.child1-1{
+    margin: 7% 5% 0px 20%;
+    /* border: 2px solid black; */
+}
+
+header{
+    height: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button{
+    width: 115px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.login{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: none;
+    margin-left: 30%;
+}
+
+h1{
+    margin-top: 60px;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -.45;
+    color: #282c3f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#order-food{
+    color: #686b78;
+    text-align: start;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    letter-spacing: -.2px;
+    margin-top: 5px;       
+}
+
+span{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+#input{
+    height: 15px;
+    width: 71.5%;
+    padding: 20px;
+    border: 1.5px solid #9f9f9f;
+    border-right: none;
+}
+
+::placeholder{
+    color: #808080;
+    font-size: 16px!important;
+    font-weight: 600;
+}
+
+#input:focus{
+    border: none;
+    /* border-bottom: 2px solid red; */
+    outline: 1.5px solid #FC8019;
+}
+
+.submit{
+    margin-right: 0%;
+    height: 56.5px;
+    width: 135px;
+    background-color: #FC8019;
+    border: 2px solid #FC8019;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 900;
+    color: white;
+}
+
+#city{
+    color: #a9abb2;
+    margin: 30px 0px 10px 0px;
+    font-size: 16px;
+    text-align: start;
+    font-weight:400;
+    letter-spacing: -.3;
+}
+
+a{
+    color: #686b78;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 18px 6px 8px 0px;
+    text-decoration: none;
+    letter-spacing: -.3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.light{
+    color: #a9abb2;
+}
+
+.child2{
+    width: 45.3%;
+    background: url('https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq') no-repeat;
+    background-size: 100% 100%;
+}
+
+#delevery{
+    width: 100%;
+    height: 400px;;
+    background-color: rgb(43, 30, 22);
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.delevery-content{
+    flex-basis: 20%;
+    /* background-color: #ff0000; */
+    /* border: 2px solid black; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.delevery-content-image{
+    height: 50%;
+    width: 35%;
+    /* border: 2px solid rgb(0, 0, 0); */
+}
+
+
+.delevery-content-logo{
+    height: 100%;
+    width: 100%;
+}
+
+.delevery-content-text{
+    height: 50%;
+    width: 85%;
+    /* margin-bottom: 20%; */
+    /* background-color: rgb(0, 0, 0); */
+    /* border: 2px solid white; */
+}
+
+p{
+    width: 100%;
+    color: #e0cbc1;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    letter-spacing: -.2px;
+    text-align: center;
+}
+
+.delevery-heading{
+    color: #ffff;
+    font-size: large;
+    font-weight: bold;
+    margin: 50px 0px 10px 0px;
+    letter-spacing: .5px;
+}
+
+.Resturant-pocket{
+    height: 570px;
+    width: 100%;
+    /* border: 2px solid rgb(128, 0, 255); */
+}
+
+#information{
+    width: auto;
+    margin: 10% 0px 0px 10%;
+    /* border: 2px solid black; */
+    position:absolute;
+}
+
+.information-para{
+    color: #7e808c;
+    text-align: start;
+    font-size: large;
+    line-height: 130%;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+
+#download-img{
+    height: 55px;
+    width: 180px;
+    margin: 55px 15px 0px 0px;
+    /* border: 2px solid rgb(0, 0, 0); */
+}
+
+.download-page-img1{
+    position: relative;
+    top: 0px;
+    right: -45%;
+    height: 489px;
+    width: 384px;
+}
+
+.download-page-img2{
+    position: relative;
+    bottom: -14.5%;
+    left: 42%;
+    height: 489px;
+    width: 384px;
+}
+
+.bottom-bar{
+    width: 100%;
+    height: 100px;
+    background-color: #dfdfe4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    /* border: 2px solid red; */
+}
+
+.bottom-bar p{
+    width: 30%;
+    color: #02060cbf;
+    text-align: left;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -.8px;
+    line-height: 30px;
+    /* border: 2px solid red; */
+}
+
+.bottom-bar img{
+    height: 55px;
+    width: 180px;
+    margin-right: 20px;
+    /* border: 2px solid red; */
+}
+
+footer{
+    width: 100%;
+    height: 459px;
+    background-color: rgb(18, 17, 17);
+    /* border: 2px solid rgb(4, 255, 0); */
+}
+
+#footer-section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-sub-section{
+    width: 15%;
+    height: 100%;
+    /* border: 2px solid rgb(0, 255, 140); */
+}
+
+.footer-sub-section p{
+    color: #FFFFFF99;
+    text-align: start;
+    margin-top: 40px;
+    font-size: 14px;
+    letter-spacing: .5px;
+    /* border: 2px solid rebeccapurple; */
+}
+
+.footer-items{
+    list-style: none;
+    text-align: start;
+    color: rgb(233, 233, 233);
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 180%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 2px solid red; */
+    margin-top: 40px;
+}
+
+.footer-items li a{
+    margin-top: 100px;
+    color: #FFFFFF99;
+    font-weight: lighter;
+    font-size: 14px;
+    letter-spacing: .7px;
+}
