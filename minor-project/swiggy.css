@@ -6,14 +6,11 @@
 .container{
     width: 100%;
     height: 540px;
-    /* border: 2px solid rgb(0, 0, 0); */
-    /* background-color: aqua; */
     display: flex;
     flex-direction: row;
 }
 
 .child-container{
-    /* border: 2px solid red; */
     height: 100%;
 }
 
@@ -23,12 +20,10 @@
 
 .child1-1{
     margin: 7% 5% 0px 20%;
-    /* border: 2px solid black; */
 }
 
 header{
     height: 100%;
-    /* border: 2px solid black; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -95,7 +90,6 @@ span{
 
 #input:focus{
     border: none;
-    /* border-bottom: 2px solid red; */
     outline: 1.5px solid #FC8019;
 }
 
@@ -144,7 +138,6 @@ a{
     width: 100%;
     height: 400px;;
     background-color: rgb(43, 30, 22);
-    /* border: 1px solid rebeccapurple; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -152,8 +145,6 @@ a{
 
 .delevery-content{
     flex-basis: 20%;
-    /* background-color: #ff0000; */
-    /* border: 2px solid black; */
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -162,7 +153,6 @@ a{
 .delevery-content-image{
     height: 50%;
     width: 35%;
-    /* border: 2px solid rgb(0, 0, 0); */
 }
 
 
@@ -174,9 +164,6 @@ a{
 .delevery-content-text{
     height: 50%;
     width: 85%;
-    /* margin-bottom: 20%; */
-    /* background-color: rgb(0, 0, 0); */
-    /* border: 2px solid white; */
 }
 
 p{
@@ -200,13 +187,11 @@ p{
 .Resturant-pocket{
     height: 570px;
     width: 100%;
-    /* border: 2px solid rgb(128, 0, 255); */
 }
 
 #information{
     width: auto;
     margin: 10% 0px 0px 10%;
-    /* border: 2px solid black; */
     position:absolute;
 }
 
@@ -223,7 +208,6 @@ p{
     height: 55px;
     width: 180px;
     margin: 55px 15px 0px 0px;
-    /* border: 2px solid rgb(0, 0, 0); */
 }
 
 .download-page-img1{
@@ -250,7 +234,6 @@ p{
     flex-direction: row;
     justify-content: center;
     align-items:center;
-    /* border: 2px solid red; */
 }
 
 .bottom-bar p{
@@ -261,21 +244,18 @@ p{
     font-weight: 600;
     letter-spacing: -.8px;
     line-height: 30px;
-    /* border: 2px solid red; */
 }
 
 .bottom-bar img{
     height: 55px;
     width: 180px;
     margin-right: 20px;
-    /* border: 2px solid red; */
 }
 
 footer{
     width: 100%;
     height: 459px;
     background-color: rgb(18, 17, 17);
-    /* border: 2px solid rgb(4, 255, 0); */
 }
 
 #footer-section{
@@ -289,7 +269,6 @@ footer{
 .footer-sub-section{
     width: 15%;
     height: 100%;
-    /* border: 2px solid rgb(0, 255, 140); */
 }
 
 .footer-sub-section p{
@@ -298,7 +277,6 @@ footer{
     margin-top: 40px;
     font-size: 14px;
     letter-spacing: .5px;
-    /* border: 2px solid rebeccapurple; */
 }
 
 .footer-items{
@@ -309,7 +287,6 @@ footer{
     font-weight: bold;
     line-height: 180%;
     font-family: Arial, Helvetica, sans-serif;
-    /* border: 2px solid red; */
     margin-top: 40px;
 }
 
